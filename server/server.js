@@ -14,7 +14,7 @@ app.use(express.json());
 
 app.use(
   "/images",
-  express.static(path.join(__dirname, "../client/public/images"))
+  express.static(path.join(__dirname, "/client/public/images"))
 );
 
 app.use("/api/birthday", birthdayRoute);
