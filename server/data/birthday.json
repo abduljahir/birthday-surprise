@@ -1,0 +1,30 @@
+{
+  "name": "Moon G",
+  "relationship": "My Dear Friend",
+  "intro": "I made something special for your special day.",
+  "birthdayMessage": "May your day be filled with happiness, laughter, beautiful memories and everything you deserve.",
+  "secretMessage": [
+    "Life gives us many people, but only a few become truly special.",
+    "I'm genuinely grateful for every laugh, every conversation and every memory we've created.",
+    "I hope this new chapter of your life brings you endless happiness, success and beautiful surprises.",
+    "Stay exactly the way you are. ❤️"
+  ],
+  "memories": [
+    {
+      "image": "/images/photo1.jpeg",
+      "caption": "One of those moments I'll always remember ❤️"
+    },
+    {
+      "image": "/images/photo2.jpeg",
+      "caption": "Good times become great memories ✨"
+    },
+    {
+      "image": "/images/photo3.jpeg",
+      "caption": "Every memory is a little more special with you 💕"
+    },
+    {
+      "image": "/images/photo4.jpeg",
+      "caption": "Here's to many more beautiful moments 🥂"
+    }
+  ]
+}
