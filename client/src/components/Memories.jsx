@@ -146,7 +146,7 @@ function Memories({ birthday, onNext }) {
               </button>
 
               <img
-                src={`http://localhost:5000${selected.image}`}
+                src={`https://birthday-surprise-zj6f.onrender.com/${selected.image}`}
                 alt="Memory"
               />
 

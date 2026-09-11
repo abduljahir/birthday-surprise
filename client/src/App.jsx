@@ -14,7 +14,7 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/birthday")
+    fetch("https://birthday-surprise-zj6f.onrender.com/api/birthday")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Failed to load birthday data");
