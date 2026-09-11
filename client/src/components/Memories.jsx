@@ -97,9 +97,9 @@ function Memories({ birthday, onNext }) {
               </button>
 
               <img
-                src={selected.image}
-                alt={selected.caption}
-              />
+  src={memory.image}
+  alt={memory.caption}
+/>
 
               <p>
                 {selected.caption}
