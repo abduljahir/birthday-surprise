@@ -4,6 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 function Memories({ birthday, onNext }) {
 
   const [selected, setSelected] = useState(null);
+  
 
   return (
     <motion.section
@@ -145,11 +146,10 @@ function Memories({ birthday, onNext }) {
                 ×
               </button>
 
-              <img
-                src={`https://birthday-surprise-zj6f.onrender.com/${selected.image}`}
-                alt="Memory"
-              />
-
+<img
+  src={selected.image}
+  alt={selected.caption}
+/>
               <p>
                 {selected.caption}
               </p>
